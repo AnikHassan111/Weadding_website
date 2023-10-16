@@ -24,7 +24,7 @@ const Login = () => {
                     position: toast.POSITION.TOP_CENTER
                 })
             })
-            .catch((err) => {
+            .catch(() => {
 
                 toast.error("Invalid User", {
                     position: toast.POSITION.TOP_CENTER
