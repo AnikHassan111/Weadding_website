@@ -1,0 +1,31 @@
+
+[
+    {
+        "id": 1,
+        "name": "Alice Johnson",
+        "image": "https://i.ibb.co/B3mxmSF/image1.jpg",
+        "work": "Wedding Planner",
+        "short_description": "Experienced wedding planner with a passion for creating dream weddings."
+    },
+    {
+        "id":2,
+        "name": "Bob Smith",
+        "image": "https://i.ibb.co/tQ38zFg/image2.jpg",
+        "work": "Wedding Photographer",
+        "short_description": "Talented wedding photographer capturing your special moments."
+    },
+    {
+        "id":3,
+        "name": "Charlie Davis",
+        "image": "https://i.ibb.co/rmCGCcq/image3.jpg",
+        "work": "Wedding Caterer",
+        "short_description": "Skilled wedding caterer who crafts delicious menus for your big day."
+    },
+    {
+        "id":2,
+        "name": "David Wilson",
+        "image": "https://i.ibb.co/sKNVbfP/image4.jpg",
+        "work": "Wedding DJ",
+        "short_description": "Professional wedding DJ, setting the mood for your memorable celebration."
+    }
+]

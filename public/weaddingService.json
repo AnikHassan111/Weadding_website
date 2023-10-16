@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Elegant White Wedding Dress",
+        "image": "https://i.ibb.co/Bfh1ch1/young-beautiful-stylish-woman-wedding-dress.jpg",
+        "price": 1200,
+        "number": "WD1234",
+        "short_description": "A classic white wedding dress with lace detailing, perfect for a timeless wedding."
+    },
+    {
+        "id": 2,
+        "name": "Diamond Engagement Ring",
+        "image": "https://i.ibb.co/ydb4R4g/wedding-rings-solo-woden-table.jpg",
+        "price": 3000,
+        "number": "ER5678",
+        "short_description": "A stunning diamond engagement ring to symbolize your everlasting love."
+    },
+    {
+        "id": 3,
+        "name": "Wedding Bouquet of Roses",
+        "image": "https://i.ibb.co/HqcZhrh/top-view-beautiful-roses-bouquet-with-pink-ribbon.jpg",
+        "price": 150,
+        "number": "WB7890",
+        "short_description": "A beautiful bouquet of fresh red roses to add romance to your special day."
+    },
+    {
+        "id": 4,
+        "name": "Tuxedo Suit for Groom",
+        "image": "https://i.ibb.co/M2L8F42/closeup-shot-male-wearing-tuxedo-with-boutonniere-its-pocket.jpg",
+        "price": 800,
+        "number": "TS4567",
+        "short_description": "A stylish black tuxedo suit for the groom, tailored to perfection."
+    },
+    {
+        "id": 5,
+        "name": "Wedding Photographer Package",
+        "image": "https://i.ibb.co/ZzF6f8f/part-groom-with-retro-camera-empty-card.jpg",
+        "price": 2000,
+        "number": "WP1122",
+        "short_description": "Capture every special moment with our professional wedding photography package."
+    },
+    {
+        "id": 6,
+        "name": "Wedding Cake with Floral Decor",
+        "image": "https://i.ibb.co/HHbr9Kx/vertical-closeup-shot-beautiful-three-layered-cake-with-rose-decorations.jpg",
+        "price": 350,
+        "number": "WC3333",
+        "short_description": "A delicious wedding cake adorned with edible flowers for a sweet celebration."
+    }
+]
