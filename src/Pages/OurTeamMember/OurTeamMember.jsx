@@ -1,9 +1,5 @@
 import { useEffect, useState } from "react";
 import OutTeamMemberCard from "./OutTeamMemberCard";
-import image1 from '../../assets/image/image1.jpg'
-import image2 from '../../assets/image/image2.jpg'
-import image3 from '../../assets/image/image3.jpg'
-import image4 from '../../assets/image/image4.jpg'
 
 
 const OurTeamMember = () => {

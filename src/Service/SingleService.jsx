@@ -6,6 +6,7 @@ const SingleService = ({ dataValue }) => {
     // console.log(dataValue);
     return (
         <div>
+
             <div className="card card-compact  bg-base-100 shadow-xl">
                 <figure><img src={dataValue.image} className='w-full h-72' alt="Shoes" /></figure>
                 <div className="card-body">
@@ -16,6 +17,7 @@ const SingleService = ({ dataValue }) => {
                         <Link to={`/service/${dataValue.id}`} className="btn btn-neutral">Show Details</Link>
                     </div>
                 </div>
+
             </div>
         </div>
     );
@@ -23,6 +25,6 @@ const SingleService = ({ dataValue }) => {
 
 export default SingleService;
 
-SingleService.propTypes ={
-    dataValue:PropTypes.object
+SingleService.propTypes = {
+    dataValue: PropTypes.object
 }
