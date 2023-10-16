@@ -55,8 +55,7 @@ const Register = () => {
                     displayName: name
                 })
             })
-            .catch(err => {
-                console.log(err.message);
+            .catch(( )=> {
                 toast.error("User Not Create", {
                     position: toast.POSITION.TOP_CENTER
                 })

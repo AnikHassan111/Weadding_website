@@ -2,33 +2,34 @@ import { useContext } from "react";
 import { Link } from "react-router-dom";
 import { ContextApi } from "../AuthProvider/AuthProvider";
 import { ToastContainer, toast } from 'react-toastify';
-  import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
 
-    const {handleUserLogin} = useContext(ContextApi)
+    const { handleUserLogin } = useContext(ContextApi)
 
-    const handleLogin = (e)=>{
+    const handleLogin = (e) => {
         e.preventDefault()
         let form = new FormData(e.currentTarget)
         let email = form.get('email')
         let password = form.get('password')
-        console.log(email,password);
+        console.log(email, password);
 
         e.target.email.value = ""
         e.target.password.value = ""
 
-        handleUserLogin(email,password)
-        .then(()=>{
-            toast.success("User Login SuccessFully", {
-                position: toast.POSITION.TOP_CENTER
-              })
-        })
-        .catch(()=>{
-            toast.error("Invalid User", {
-                position: toast.POSITION.TOP_CENTER
-              })
-        })
+        handleUserLogin(email, password)
+            .then(() => {
+                toast.success("User Login SuccessFully", {
+                    position: toast.POSITION.TOP_CENTER
+                })
+            })
+            .catch((err) => {
+
+                toast.error("Invalid User", {
+                    position: toast.POSITION.TOP_CENTER
+                })
+            })
     }
     return (
         <div>
@@ -52,6 +53,7 @@ const Login = () => {
                     <p className="mt-5">You Dont have an account? <Link to={'/register'} className="text-blue-500 ">Register</Link></p>
                 </form>
             </div>
+            <ToastContainer />
         </div>
     );
 };
